@@ -1,0 +1,10 @@
+CREATE DATABASE todo;
+
+CREATE TABLE `tbl_todo` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) DEFAULT NULL,
+  `text` text,
+  `startDate` date DEFAULT NULL,
+  `finishDate` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
